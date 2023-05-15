@@ -1,6 +1,6 @@
 import argparse
-from src.crud import create_data, list_data, update_data, remove_data
-from src.models import Teacher, Student, Discipline, Group
+from database.crud import create_data, list_data, update_data, remove_data
+from database.models import Teacher, Student, Discipline, Group
 
 parser = argparse.ArgumentParser(description='Todo APP')
 parser.add_argument('--action', help='Command: create, update, list, remove')
